@@ -28,31 +28,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:onClick="GoToNewPage"
         android:text="Albums"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintHorizontal_bias="0.243"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.012" />
 
     <Button
         android:id="@+id/Info_Button"
-        android:layout_width="178dp"
-        android:layout_height="51dp"
+        android:layout_width="73dp"
+        android:layout_height="49dp"
         android:layout_marginTop="8dp"
-        android:text="Info About Band"
+        android:text="Info"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintHorizontal_bias="0.76"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.007" />
+        app:layout_constraintVertical_bias="0.012" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="423dp"
-        android:layout_height="391dp"
+        android:layout_width="394dp"
+        android:layout_height="387dp"
         android:layout_marginBottom="36dp"
         android:gravity="center"
         android:text="Linkin Park is an American rock band from Agoura Hills, California. The band's current lineup comprises vocalist/rhythm guitarist/keyboardist Mike Shinoda, lead guitarist Brad Delson, bassist Dave Farrell, DJ/turntablist Joe Hahn and drummer Rob Bourdon, all of whom are founding members. Vocalists Mark Wakefield and Chester Bennington are former members of the band. Categorized as alternative rock, Linkin Park's earlier music spanned a fusion of heavy metal and hip hop, while their later music features more electronica and pop elements."
