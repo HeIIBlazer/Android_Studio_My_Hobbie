@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent= new Intent(this, activity_albumpage.class);
                 startActivity(intent);
                 break;
+            case R.id.Info_Button:
+                Intent intent2= new Intent(this, activity_infopage.class);
+                startActivity(intent2);
             default:
                 break;
         }
