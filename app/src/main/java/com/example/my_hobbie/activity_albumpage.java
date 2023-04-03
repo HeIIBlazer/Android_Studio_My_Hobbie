@@ -48,6 +48,8 @@ public class activity_albumpage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_albumpage);
+        Link = (TextView) findViewById(R.id.LINK);
+        Link.setMovementMethod(LinkMovementMethod.getInstance());
 
         Resources res = getResources();
         album_names = res.getStringArray(R.array.Album_Names);
@@ -60,8 +62,7 @@ public class activity_albumpage extends AppCompatActivity {
         Next =(ImageButton) findViewById(R.id.imageButtonNext);
         Previous = (ImageButton) findViewById(R.id.imageButtonPrevious);
 
-        Link = (TextView) findViewById(R.id.LINK);
-        Link.setMovementMethod(LinkMovementMethod.getInstance());
+
 
 
 
