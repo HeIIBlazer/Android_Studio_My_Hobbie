@@ -1,4 +1,35 @@
 <resources>
     <string name="app_name">My_Hobbie</string>
-    <string name="Hybrid_Theory">Hybrid_Theory</string>
+
+    <string-array name="Album_Names">
+        <item>Hybrid Theory</item>
+        <item>Meteora</item>
+        <item>Minutes To Midnight</item>
+        <item>A Thousand Suns</item>
+        <item>Living Things</item>
+        <item>The Hunting Party</item>
+        <item>One More Light</item>
+    </string-array>
+
+    <string-array name="Genre">
+        <item>Nu Metal, Rap Metal, Alternative Metal</item>
+        <item>Nu Metal, Rap Metal, Alternative Metal</item>
+        <item>Alternative Rock, Alternative Metal</item>
+        <item>Electronic Rock, Art Rock, Alternative Rock</item>
+        <item>Electronic Rock, Rap Rock, Alternative Rock</item>
+        <item>Alternative Metal, Nu Metal, Hard Rock</item>
+        <item>Pop, ElectroPop, Electronic Rock</item>
+    </string-array>
+
+    <string name="link"><a href="https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz">Linkin Park</a></string>
+<!--    <string-array name="link">-->
+<!--        <item><a href="https://open.spotify.com/album/2pKw6GERJVAD61449B1EEM">Hybrid Theory</a></item>-->
+<!--        <item><a href="https://open.spotify.com/album/0f7R0jf0pcTb6K6IVVPcMD">Meteora</a></item>-->
+<!--        <item><a href="https://open.spotify.com/album/7pgs38iLfEqUtwgCRgvbND">Minutes to Midnight</a></item>-->
+<!--        <item><a href="https://open.spotify.com/album/5uvXx5ZQswNRFCdHR521YZ">A Thousand Suns</a></item>-->
+<!--        <item><a href="https://open.spotify.com/album/4XHIjbhjRmqWlosjj5rqSI">Living Things</a></item>-->
+<!--        <item><a href="https://open.spotify.com/album/3XB2yloP7l00tEUmaODtVi">The Hunting Party</a></item>-->
+<!--        <item><a href="https://open.spotify.com/album/5Eevxp2BCbWq25ZdiXRwYd">One More Light</a></item>-->
+<!--    </string-array>-->
+
 </resources>
