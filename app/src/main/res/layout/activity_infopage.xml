@@ -34,19 +34,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.082" />
 
-    <ImageButton
-        android:id="@+id/imageButtonNext2"
-        android:layout_width="49dp"
-        android:layout_height="134dp"
-        android:padding="0dp"
-        android:scaleType="centerCrop"
+    <ImageView
+        android:id="@+id/imageAlbumCover2"
+        android:layout_width="295dp"
+        android:layout_height="287dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.975"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.385"
-        app:srcCompat="@drawable/arrow_right" />
+        app:layout_constraintVertical_bias="0.243"
+        app:srcCompat="@drawable/Chester" />
 
     <ImageButton
         android:id="@+id/imageButtonPrevious2"
@@ -59,19 +56,22 @@
         app:layout_constraintHorizontal_bias="0.024"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.386"
+        app:layout_constraintVertical_bias="0.308"
         app:srcCompat="@drawable/arrow_left" />
 
-    <ImageView
-        android:id="@+id/imageAlbumCover2"
-        android:layout_width="295dp"
-        android:layout_height="287dp"
+    <ImageButton
+        android:id="@+id/imageButtonNext2"
+        android:layout_width="49dp"
+        android:layout_height="134dp"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.346"
-        app:srcCompat="@drawable/chester" />
+        app:layout_constraintVertical_bias="0.308"
+        app:srcCompat="@drawable/arrow_right" />
 
     <TextView
         android:id="@+id/textView3"
