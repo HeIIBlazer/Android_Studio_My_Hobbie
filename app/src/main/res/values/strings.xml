@@ -22,15 +22,6 @@
     </string-array>
 
     <string name="link"><a href="https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz">Linkin Park</a></string>
-<!--    <string-array name="link">-->
-<!--        <item><a href="https://open.spotify.com/album/2pKw6GERJVAD61449B1EEM">Hybrid Theory</a></item>-->
-<!--        <item><a href="https://open.spotify.com/album/0f7R0jf0pcTb6K6IVVPcMD">Meteora</a></item>-->
-<!--        <item><a href="https://open.spotify.com/album/7pgs38iLfEqUtwgCRgvbND">Minutes to Midnight</a></item>-->
-<!--        <item><a href="https://open.spotify.com/album/5uvXx5ZQswNRFCdHR521YZ">A Thousand Suns</a></item>-->
-<!--        <item><a href="https://open.spotify.com/album/4XHIjbhjRmqWlosjj5rqSI">Living Things</a></item>-->
-<!--        <item><a href="https://open.spotify.com/album/3XB2yloP7l00tEUmaODtVi">The Hunting Party</a></item>-->
-<!--        <item><a href="https://open.spotify.com/album/5Eevxp2BCbWq25ZdiXRwYd">One More Light</a></item>-->
-<!--    </string-array>-->
 
     <string-array name="Band">
         <item>Chester Bennington</item>
@@ -39,6 +30,15 @@
         <item>Rob Bourdon</item>
         <item>Brad Delson</item>
         <item>Dave Farrell</item>
+    </string-array>
+
+    <string-array name="BandInfo">
+        <item>Chester:</item>
+        <item>Mike:</item>
+        <item>Joe:</item>
+        <item>Rob:</item>
+        <item>Brad:</item>
+        <item>Dave:</item>
     </string-array>
 
     <string-array name="Place">
@@ -52,7 +52,7 @@
 
     <string-array name="Info">
         <item>Chester Charles Bennington (March 20, 1976 – July 20, 2017) was an American singer and songwriter who was best known as the lead vocalist of rock band Linkin Park. He was also the lead vocalist of the bands Grey Daze, Dead by Sunrise, and Stone Temple Pilots.</item>
-        <item>Michael Kenji Shinoda (/ʃɪˈnoʊdə/; born February 11, 1977) is an American musician, singer, rapper, songwriter and record producer. He co-founded the rock band Linkin Park in 1996 and was the bands collaborative vocalist while Chester Bennington was lead vocalist, as well as rhythm guitarist, keyboardist, primary songwriter and producer. Shinoda later created a hip-hop-driven side project, Fort Minor, in 2004. He has also served as a producer for tracks and albums by artists such as Lupe Fiasco, Styles of Beyond and the X-Ecutioners.</item>
+        <item>Michael Kenji Shinoda (born February 11, 1977) is an American musician, singer, rapper, songwriter and record producer. He co-founded the rock band Linkin Park in 1996 and was the bands collaborative vocalist, as well as rhythm guitarist, keyboardist, primary songwriter and producer.</item>
         <item>Joseph Hahn (born March 15, 1977) is an American musician, DJ, director and visual artist best known as the DJ of the American rock band Linkin Park, doing the scratching, turntables, sampling, and programming for all seven of Linkin Parks albums. Hahn, along with bandmate Mike Shinoda, is responsible for most of Linkin Parks album artwork. Hahn also directed many of the bands music videos.</item>
         <item>Robert Gregory Bourdon (born January 20, 1979) is an American musician, best known as the drummer and co-founding member of the American rock band Linkin Park.</item>
         <item>Bradford Phillip Delson (born December 1, 1977) is an American musician, best known as the lead guitarist and one of the founding members of the rock band Linkin Park.</item>

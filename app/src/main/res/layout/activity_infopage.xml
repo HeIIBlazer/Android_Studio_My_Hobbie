@@ -7,12 +7,12 @@
     tools:context=".activity_infopage">
 
     <Button
-        android:id="@+id/info_Button"
+        android:id="@+id/Albums_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:onClick="GoToNewPage"
-        android:text="Info"
+        android:text="Albums"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.151"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.082" />
 
     <Button
-        android:id="@+id/main_page2"
+        android:id="@+id/Main_Page_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -35,29 +35,15 @@
         app:layout_constraintVertical_bias="0.082" />
 
     <ImageView
-        android:id="@+id/imageAlbumCover2"
+        android:id="@+id/Photo_Person"
         android:layout_width="295dp"
         android:layout_height="287dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243"
-        app:srcCompat="@drawable/Chester" />
-
-    <ImageButton
-        android:id="@+id/imageButtonPrevious2"
-        android:layout_width="49dp"
-        android:layout_height="134dp"
-        android:padding="0dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.024"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.308"
-        app:srcCompat="@drawable/arrow_left" />
+        app:layout_constraintVertical_bias="0.326"
+        app:srcCompat="@drawable/chester" />
 
     <ImageButton
         android:id="@+id/imageButtonNext2"
@@ -70,11 +56,25 @@
         app:layout_constraintHorizontal_bias="0.975"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.308"
+        app:layout_constraintVertical_bias="0.37"
         app:srcCompat="@drawable/arrow_right" />
 
+    <ImageButton
+        android:id="@+id/imageButtonPrevious2"
+        android:layout_width="49dp"
+        android:layout_height="134dp"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37"
+        app:srcCompat="@drawable/arrow_left" />
+
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/Name"
         android:layout_width="414dp"
         android:layout_height="79dp"
         android:background="@color/black"
@@ -89,4 +89,66 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Info"
+        android:layout_width="383dp"
+        android:layout_height="193dp"
+        android:gravity="center|top"
+        android:text="Chester Charles Bennington (March 20, 1976 – July 20, 2017) was an American singer and songwriter who was best known as the lead vocalist of rock band Linkin Park. He was also the lead vocalist of the bands Grey Daze, Dead by Sunrise, and Stone Temple Pilots."
+        android:textColor="@color/white"
+        android:textSize="45px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InfoAbout"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <TextView
+        android:id="@+id/InfoAbout"
+        android:layout_width="369dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="Info about Chester:"
+        android:textColor="@color/white"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Place"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="413dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Place:"
+        android:textColor="@color/white"
+        android:textSize="70px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Photo_Person"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/Place"
+        android:layout_width="411dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="208dp"
+        android:gravity="center"
+        android:text="Lead Vocalist"
+        android:textColor="@color/white"
+        android:textSize="65px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.137" />
 </androidx.constraintlayout.widget.ConstraintLayout>
