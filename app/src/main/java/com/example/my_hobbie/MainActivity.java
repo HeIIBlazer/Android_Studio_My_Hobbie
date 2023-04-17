@@ -21,8 +21,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.Info_Button:
-                Intent intent2= new Intent(this, activity_infopage.class);
+                Intent intent1= new Intent(this, activity_infopage.class);
+                startActivity(intent1);
+                break;
+            case R.id.button_Web_View:
+                Intent intent2= new Intent(this, activity_web_view_page.class);
                 startActivity(intent2);
+                break;
             default:
                 break;
         }
