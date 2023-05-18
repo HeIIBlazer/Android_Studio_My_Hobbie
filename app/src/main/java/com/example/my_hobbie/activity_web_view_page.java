@@ -3,6 +3,8 @@ package com.example.my_hobbie;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
@@ -77,4 +79,39 @@ public class activity_web_view_page extends AppCompatActivity {
                     break;
             }
         }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // TODO Auto-generated method stub
+        // TODO Auto-generated method stub
+        // добавляем пункты меню
+        menu.add(0, 1, 0, "Albums");
+        menu.add(0, 2, 0, "Main Page");
+        menu.add(0, 3, 3, "Info");
+        return super.onCreateOptionsMenu(menu);
+    }
+    // обработка нажатий
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // TODO Auto-generated method stub
+        int id = item.getItemId();
+
+        switch(id){
+            case 1:
+                Intent intent= new Intent(this, activity_albumpage.class);
+                startActivity(intent);
+                break;
+            case 3:
+                Intent intent1= new Intent(this, activity_infopage.class);
+                startActivity(intent1);
+                break;
+            case 2:
+                Intent intent2= new Intent(this, MainActivity.class);
+                startActivity(intent2);
+                break;
+            default:
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 }
