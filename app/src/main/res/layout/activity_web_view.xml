@@ -6,53 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".activity_web_view_page">
 
+    <EditText
+        android:id="@+id/editText_addressBar"
+        android:layout_width="414dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:focusable="true"
+        android:hint="Sisesta URL"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColorHighlight="#ff7eff15"
+        android:textColorHint="#ffff25e6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_static"
+        android:layout_width="161dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="STATIC CONTENT"
+        app:layout_constraintEnd_toStartOf="@+id/button_go"
+        app:layout_constraintTop_toBottomOf="@+id/editText_addressBar" />
+
+    <Button
+        android:id="@+id/button_go"
+        android:layout_width="67dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="GO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_addressBar" />
+
     <WebView
         android:id="@+id/webView"
-        android:layout_width="412dp"
-        android:layout_height="805dp"
+        android:layout_width="369dp"
+        android:layout_height="651dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/main_page"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/button_go" />
 
     <Button
-        android:id="@+id/main_page"
-        android:layout_width="121dp"
-        android:layout_height="58dp"
+        android:id="@+id/button_MainPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="GoToNewPage"
         android:text="Main Page"
-        android:onClick="GoToNewPage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02" />
+        app:layout_constraintVertical_bias="0.159" />
 
-    <Button
-        android:id="@+id/album_page"
-        android:layout_width="121dp"
-        android:layout_height="58dp"
-        android:text="Albums"
-        android:onClick="GoToNewPage"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.003"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02" />
-
-    <Button
-        android:id="@+id/info_page"
-        android:layout_width="121dp"
-        android:layout_height="58dp"
-        android:text="Info"
-        android:onClick="GoToNewPage"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.996"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
